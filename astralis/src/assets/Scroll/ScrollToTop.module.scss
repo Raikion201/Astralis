@@ -1,0 +1,25 @@
+.toTop{
+    font-size: 30px;
+    right: 2rem;
+    bottom: 1rem;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 2rem;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    background-color: red;
+}
+.active{
+    bottom: 2rem;
+    pointer-events: auto;
+    opacity : 1;
+}

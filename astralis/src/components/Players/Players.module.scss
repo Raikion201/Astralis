@@ -1,0 +1,26 @@
+
+.active{
+    background-color: #d31313;
+}
+.normal{
+    background: linear-gradient(to left, #000 34%, #d31313 65%) right;
+    background-size: 300% 100%;
+    transition: all 0.5s ease;
+    &:hover{
+        background-position: left;
+    }
+}
+.wrapper{
+    padding: 1px;
+    border-left: 2px solid #fff;
+    margin-top: 4rem;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+.imgWrapper{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}

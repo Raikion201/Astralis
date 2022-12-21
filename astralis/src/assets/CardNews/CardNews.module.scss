@@ -1,0 +1,36 @@
+.image{
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(105%);
+    }
+}
+.content{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1rem #ccc;
+    
+}
+.title{
+    font-weight: 600;
+    height: 10rem;
+    line-height: 1.5rem;
+    padding: 1rem 0.5rem 6rem 0.5rem;
+    transition: all .4s ease-in-out;
+    &:hover{
+        color: red;
+    }
+}
+.category{
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+}
+.date{
+    display: block;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+@media screen  {
+    
+}

@@ -1,0 +1,138 @@
+
+.headerWrapper{
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+.headText{
+    letter-spacing: 0.2rem;
+    bottom: 15%;
+    left: 5%;
+    color: red;
+    text-shadow: 0 0 2rem #333;
+    color: red;
+    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+    1px 1px #fff, -1px -1px #fff, -1px 1px #fff; 
+}
+.videoHeader{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.newsCardWrapper{
+    margin: 0 1rem;
+    max-width: 100%;
+}
+.newsWrapper{
+    height: auto;
+    padding-bottom: 6rem;
+}
+.achievement{
+    
+    height: 60rem;
+    background: url('../../../public/bgRed.jpg') center/cover no-repeat ;
+}
+.achievement:hover .boxAC{
+    width: 30%;
+}
+.boxAC{
+    color: white;
+    display: flex;
+    padding-bottom: 0.5rem;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    position: relative;
+    border-bottom: 4px solid #fff;
+    width: 10%;
+    transition: all .4s ease-in-out;
+    &:hover{
+        width: 30%;
+    }
+}
+.acContain{
+    height: 40rem;
+}
+.toPlayers{
+    opacity: 0.9;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    height: 60rem;
+    background: url('../../../public/team.jpg') center/cover no-repeat ;
+}
+.toHistory{
+    opacity: 0.9;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    height: 60rem;
+    background: url('../../../public/history.jpg') center/cover no-repeat ;
+}
+
+.headerPlayers{
+    color: red;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; 
+}
+.headerHistory{
+    color: #fff;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; 
+}
+.visit{
+   color:#fff;
+   text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; 
+   &:hover{
+    color: red;
+    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff; 
+   }
+}
+.signinForm{
+    height: 40rem;
+    background: url('../../../public/bgNoLogoblue.jpg');
+    padding: 5rem;
+}
+.inputSignin{
+    padding: 0.5rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    &:focus{
+        padding: 0.75rem 1.5rem !important;
+        border-color: red;
+        outline: none;
+    }
+}
+.submitSignin{
+    padding: 0.4rem;
+    border: solid 3px #fff;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: rgba(255, 0, 0, 0.7);
+    }
+}
+.shop{
+    opacity: 0.9;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    height: 60rem;
+    background: url('../../../public/bgstar.jpg') center/cover no-repeat fixed ;
+}
+.nexus{
+    opacity: 0.9;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    height: 60rem;
+    background: url('../../../public/bgnexus.jpg') center/cover no-repeat fixed ;
+}

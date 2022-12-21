@@ -1,0 +1,32 @@
+.wrapperTop{
+    height: 5rem;
+    background-color: red;
+}
+.wrapperBot{
+    height: 10rem;
+    background-color: #0e3b4e;
+    position: relative;
+}
+.icon{
+    background-color: red;
+    border-radius: 1.8rem;
+    padding: 0.5rem;
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: translateY(-10px);
+    }
+}
+.iconWrapper{
+    margin-top: 1.5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.textWrapper{
+    font-size: 1rem;
+    margin-left: 50%;
+    transform: translateX(-50%) !important;
+    margin-top: 5rem;
+    position: absolute;
+}

@@ -1,0 +1,16 @@
+
+.wrapper{
+    height: calc(100vh - 4rem);
+    background: url(../../../../public/astralisPrime.jpg) center/cover no-repeat;
+    opacity: 0.9;
+    position: relative;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    bottom: 40%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-shadow: -2px -2px 0 red, 2px -2px 0 red, 2px 2px 0 red,2px 2px 0 red;
+    white-space: nowrap;
+}
